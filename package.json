@@ -1,0 +1,23 @@
+{
+  "name": "rafest",
+  "version": "1.0.0",
+  "description": "events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingcorp/rafest.git"
+  },
+  "author": "iamtobay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingcorp/rafest/issues"
+  },
+  "homepage": "https://github.com/kingcorp/rafest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
