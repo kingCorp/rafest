@@ -18,17 +18,18 @@
   }
   
   .headed {
-    background-image: url('go.png') inherit;
-    height: 70vh;
-    background-color: #cccccc;
-    color: #fff;
-    padding: 100px 25px;
+    background-image:linear-gradient(to bottom, rgba(3, 15, 41, 0.499), rgba(3, 15, 41, 0.663), rgba(3, 15, 41, 0.753)), url('./go.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
   }
-  .container-fluid {
-    padding: 20px 20px;
-  }
-
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
@@ -75,13 +76,15 @@
 <body id="myPage" data-spy="scroll" data-offset="60">
 
 
-<div class="headed text-center">
-  <h1>RARE FEST</h1> 
-  <p>A day that willl bring your rareness out</p> 
- 
-    <a href="https://paystack.com/pay/rarefest_Regular" class="btn btn-lg btn-info mr-5"> <h5>GET YOUR REGULAR TICKET</h5> </a>  <a href="https://paystack.com/pay/rarefestvip" class="btn btn-lg btn-success ml-5"> <h5>GET YOUR VIP TICKET</h5> </a>  
-    <img src="go.png" width="100%" alt="" />
+<div class="headed ">
+  <div class="">
+    <h1 class="text-bolder">RARE FEST</h1> 
+    <h3>A day that willl bring your rareness out</h3> 
+   
+      <a href="https://paystack.com/pay/rarefest_Regular" class="btn  btn-info mr-5"> <h5>GET YOUR REGULAR TICKET</h5> </a>  <a href="https://paystack.com/pay/rarefestvip" class="btn  btn-success ml-5"> <h5>GET YOUR VIP TICKET</h5> </a>  
+  </div>
 </div>
+
 <!-- Container (About Section) -->
 <div>
   <div class="row text-center">
